@@ -58,8 +58,9 @@ public class AppShindan_E {
           }
          else if(answer != 1 && answer != 2){
              System.out.println("あなたは型破りな性格です。");
+         }
 	}
-	public void situmon3(int a){
+	public static void situmon3(int a){
 		//下平啓太
 		System.out.println("あなたはリーダーになりたい派？メンバー派？1:リーダー2:メンバー3:どっちでもいい");
 		int ansewer = sc.nextInt();
@@ -71,7 +72,7 @@ public class AppShindan_E {
 			System.out.println("優柔不断な方なのですね");
 		}
 	}
-	public void situmon4(int a){
+	public static void situmon4(int a){
 		//畠山拓也
 		System.out.println("あなたの好きな色を、次の４つから選んで下さい");
 		System.out.print("１：赤	\n２：緑	\n３：青	\n４：その他	\n番号を入力してください：");
