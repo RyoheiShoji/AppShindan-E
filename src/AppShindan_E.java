@@ -63,6 +63,18 @@ public class AppShindan_E {
 		//
 	}
 	public void situmon4(int a){
-		//
+		//畠山拓也
+		System.out.println("あなたの好きな色を、次の４つから選んで下さい");
+		System.out.print("１：赤	\n２：緑	\n３：青	\n４：その他	\n番号を入力してください：");
+		int num = sc.nextInt();
+		if(num == 1){
+			System.out.println("\nあなたは情熱的な人でしょう。");
+		}else if(num == 1){
+			System.out.println("\nあなたは優しい人でしょう。");
+		}else if(num == 1){
+			System.out.println("\nあなたは冷静な人でしょう。");
+		}else if(num == 1){
+			System.out.println("\nあなたは変わった人でしょう。");
+		}
 	}
 }
