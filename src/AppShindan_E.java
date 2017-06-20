@@ -5,13 +5,14 @@ public class AppShindan_E {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args){
 		//ƒƒCƒ“ˆ—
+		System.out.println("–«Šif’f–");
 		situmon1(0);
 		situmon2(0);
 		situmon3(0);
 		situmon4(0);
 		//‰ñ“š“à—e‚Åf’fŒ‹‰Ê‚ğl‚¦‚éˆ—
 		//‰ñ“šŒ‹‰Ê‚ğo—Í
-
+		System.out.println("‚¨”æ‚ê—l‚Å‚µ‚½");
 	}
 
 	public static void situmon1(int a){
